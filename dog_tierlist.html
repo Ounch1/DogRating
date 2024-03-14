@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tierlist</title>
+        <link rel="icon" href="icon.jpg" type="image/jpeg">
+        <link rel="stylesheet" href="style.css">
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <h2 style="text-align: center;">The official dog ranking</h2>
+        
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl vel ultrices ultricies, 
+            ligula nunc tincidunt urna, id aliquet nunc mauris id nunc. Sed nec mauris vitae nunc lacinia tincidunt. 
+            Sed id nunc non nisl tincidunt lacinia. Sed auctor, nunc id ultrices ultricies, nunc nunc tincidunt urna, 
+            id aliquet nunc mauris id nunc. Sed nec mauris vitae nunc lacinia tincidunt. Sed id nunc non nisl tincidunt lacinia.
+        </p>
+
+        <div class="panel">
+            <h3>Dogs listed in this ranking: </h3>
+            <ol>
+                <li>
+                    <p>Borzoi</p>
+                </li>
+                <li>
+                    <p>Pitbull named "Cupcake"</p>
+                </li>
+                <li>
+                    <p>Collie</p>
+                </li>
+                <li>
+                    <p>Beagle</p>
+                </li>
+            </ol>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <!-- A table used to represent a list of dogs, including breed, description, image and a quote. New entries are to be added into this table -->
+        <div class="panel">
+            <table style="margin: auto;">
+                <tr>
+                    <th>Breed</th>
+                    <th>Description</th>
+                    <th>Image</th>
+                    <th>Quote</th>
+                </tr>
+                <tr>
+                    <td>Borzoi</td>
+                    <td>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl vel ultrices ultricies, 
+                        ligula nunc tincidunt urna, id aliquet nunc mauris id nunc. Sed nec mauris vitae nunc lacinia tincidunt. 
+                        Sed id nunc non nisl tincidunt lacinia. Sed auctor, nunc id ultrices ultricies, nunc nunc tincidunt urna, 
+                        id aliquet nunc mauris id nunc. Sed nec mauris vitae nunc lacinia tincidunt. Sed id nunc non nisl tincidunt lacinia.
+                    </td>
+                    <td><img src="dog4.webp" alt="Borzoi with a friend" height="150"></td>
+                    <td>"Definitely one of the dogs of all time."</td>
+                </tr>
+                <tr>
+                    <td>Pitbull named "Cupcake"</td>
+                    <td>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl vel ultrices ultricies, 
+                        ligula nunc tincidunt urna, id aliquet nunc mauris id nunc. Sed nec mauris vitae nunc lacinia tincidunt. 
+                        Sed id nunc non nisl tincidunt lacinia. Sed auctor, nunc id ultrices ultricies, nunc nunc tincidunt urna, 
+                        id aliquet nunc mauris id nunc. Sed nec mauris vitae nunc lacinia tincidunt. Sed id nunc non nisl tincidunt lacinia.
+                    </td>
+                    <td><img src="dog2.png" alt="A muscular pitbull" height="150"></td>
+                    <td>"Don't worry, he doesn't bite."</td>
+                </tr>
+                <tr>
+                    <td>Collie</td>
+                    <td>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl vel ultrices ultricies, 
+                        ligula nunc tincidunt urna, id aliquet nunc mauris id nunc. Sed nec mauris vitae nunc lacinia tincidunt. 
+                        Sed id nunc non nisl tincidunt lacinia. Sed auctor, nunc id ultrices ultricies, nunc nunc tincidunt urna, 
+                        id aliquet nunc mauris id nunc. Sed nec mauris vitae nunc lacinia tincidunt. Sed id nunc non nisl tincidunt lacinia.
+                    </td>
+                    <td><img src="dog6.jpg" alt="A very serious Collie" height="150"></td>
+                    <td>"Favored by our users"</td>
+                </tr>
+                <tr>
+                    <td>Beagle</td>
+                    <td>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, nisl vel ultrices ultricies, 
+                        ligula nunc tincidunt urna, id aliquet nunc mauris id nunc. Sed nec mauris vitae nunc lacinia tincidunt. 
+                        Sed id nunc non nisl tincidunt lacinia. Sed auctor, nunc id ultrices ultricies, nunc nunc tincidunt urna, 
+                        id aliquet nunc mauris id nunc. Sed nec mauris vitae nunc lacinia tincidunt. Sed id nunc non nisl tincidunt lacinia.
+                    </td>
+                    <td><img src="dog5.jpg" alt="A flying beagle" height="150"></td>
+                    <td>"Flying beagle is a great album btw"</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <hr>
+        <br>
+            <div class="panel">
+                <form action="https://yrgo-echo-app.netlify.app/echo" method="post">
+                    <fieldset>
+                        <legend>Leave a review:</legend>
+                        <p> Please leave a review, you contribute to improving the user experience by giving feedback</p>
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="email" name="email" placeholder="Enter your email">
+                        <br><br>
+                        <label for="country">Select your country:</label>
+                        <select name="country" id="country">
+                            <option value="USA">United States</option>
+                            <option value="UK">United Kingdom</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Australia">Australia</option>
+                            <option value="Japan">Japan</option>
+                        </select>
+                        <br><br>
+                        <fieldset>
+                            <legend>Additional information:</legend>
+                            <label>Select your gender:</label><br>
+                            <label for="male"><input type="radio" name="gender" id="male" value="male"> Male</label>
+                            <label for="female"><input type="radio" name="gender" id="female" value="female"> Female</label>
+                            <br><br>
+                            <label for="age_group">Select your age group:</label>
+                            <select name="age_group" id="age_group">
+                                <option value="3-12">3-12</option>
+                                <option value="13-19">13-19</option>
+                                <option value="20-29">20-29</option>
+                                <option value="30-49">30-49</option>
+                                <option value="50-79">50-79</option>
+                                <option value="80-110">80-110</option>
+                            </select>
+                            <br><br>
+                            <label>Rate your experience:</label><br>
+                            <input type="radio" name="rating" id="rating1" value="1"> <label for="rating1">1</label><br>
+                            <input type="radio" name="rating" id="rating2" value="2"> <label for="rating2">2</label><br>
+                            <input type="radio" name="rating" id="rating3" value="3"> <label for="rating3">3</label><br>
+                            <input type="radio" name="rating" id="rating4" value="4"> <label for="rating4">4</label><br>
+                            <input type="radio" name="rating" id="rating5" value="5"> <label for="rating5">5</label><br>
+                            <br>
+                        </fieldset>
+                        <br>
+                        <textarea name="review" placeholder="Enter your review" rows="5" cols="50"></textarea>
+                        <br><br>
+                        <input type="checkbox" name="steal" id="steal">
+                        <label for="steal"> By pressing this button, I agree to this site stealing my personal information</label>
+                        <br><br>
+                        <input type="submit" value="Submit">
+                        <br>
+                    </fieldset>
+                </form>
+            </div>
+        <br>
+        <hr>
+            <h2>User Reviews:</h2>
+            <div class="container">
+                <div class="box"> 
+                    <h3>Sample Name 5/5</h3>
+                    <p>
+                       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi tempore animi 
+                       blanditiis atque qui. Consequuntur eaque a optio nulla, praesentium, repellendus cupiditate est 
+                       deserunt fuga porro autem minus explicabo assumenda?
+                    </p>
+                </div>
+                <div class="box"> 
+                    <h3>Sample Name 4/5</h3>
+                    <p>
+                       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi tempore animi 
+                       blanditiis atque qui. Consequuntur eaque a optio nulla, praesentium, repellendus cupiditate est 
+                       deserunt fuga porro autem minus explicabo assumenda?
+                    </p>
+                </div>
+                <div class="box"> 
+                    <h3>Sample Name 2/5</h3>
+                    <p>
+                       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi tempore animi 
+                       blanditiis atque qui. Consequuntur eaque a optio nulla, praesentium, repellendus cupiditate est 
+                       deserunt fuga porro autem minus explicabo assumenda?
+                    </p>
+                </div>
+                <div class="box"> 
+                    <h3>Sample Name 5/5</h3>
+                    <p>
+                       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi tempore animi 
+                       blanditiis atque qui. Consequuntur eaque a optio nulla, praesentium, repellendus cupiditate est 
+                       deserunt fuga porro autem minus explicabo assumenda?
+                    </p>
+                </div>
+                <div class="box"> 
+                    <h3>Sample Name 1/5</h3>
+                    <p>
+                       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi tempore animi 
+                       blanditiis atque qui. Consequuntur eaque a optio nulla, praesentium, repellendus cupiditate est 
+                       deserunt fuga porro autem minus explicabo assumenda?
+                    </p>
+                </div>
+            </div>
+        <hr>
+        <br>
+        <h2 style="text-align: center;"><a href="index.html">Go back</a></h2>
+    </body>
+</html>

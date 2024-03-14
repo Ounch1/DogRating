@@ -1,0 +1,146 @@
+h1
+{
+    font-family: Verdana, arial;
+    color: #810000;
+    text-transform: uppercase;
+    margin: 40px;
+    text-align: center;
+}
+h2
+{
+    font-family: Verdana, arial;
+    color: #630000;
+    text-transform: uppercase;
+    text-align: center;
+}
+h3
+{
+    font-family: Verdana, arial;
+    color: #630000;
+}
+label
+{
+    font-family: Verdana, arial;
+    color: #630000;
+}
+th
+{
+    font-family: Verdana, arial;
+    color: #630000;
+}
+p
+{
+    font-family: Helvetica, arial;
+    color: #1B1717;
+}
+td
+{
+    font-family: Helvetica, arial;
+    color: #1B1717;
+}
+body
+{
+    background-color: #EEEBDD;
+}
+tr, th, td
+{
+    border: 1px solid black;
+}
+
+#navigate_panel a {
+    /* Button style*/
+    text-decoration: none;
+    color: #000;
+    background-color: #c7a670;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+#navigate_panel a:hover {
+    /* Button style on hover */
+    background-color: #6e574c;
+    color: #fff;
+}
+
+#image_background
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+
+    background-image: url('icon.jpg'); 
+    background-size: cover; 
+    background-position: center;
+}
+
+#judgemental_dog 
+{
+    display: block;
+    margin: 0 auto;
+}
+
+.container
+{
+    height: fit-content;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box
+{
+    width: 400px;
+    height: 200px;
+
+    background-color: #e6e1d2;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+
+    border: 2px solid black;
+
+    overflow-y: auto;
+    text-align: left;
+}
+
+.scrollable_element
+{
+    max-height: 230px;
+    padding-left: 50px;
+    overflow-y: scroll;
+
+    background-color: #e6e1d2;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* Creates a panel with a background for an element*/
+.panel
+{
+    text-align: center;
+    max-width: fit-content;
+    margin: 0 auto;
+
+    background-color: #e3dbc7;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* Adjusting the flexbox for smaller screens*/
+@media only screen and (max-width: 600px) 
+{
+    .container 
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box 
+    {
+        width: calc(100% - 40px); /* Take up full width minus margin */
+        height: auto;
+    }
+}
